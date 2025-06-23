@@ -1,0 +1,27 @@
+{
+  "algorithm": "ppo",
+  "scenario": "predator_advantage",
+  "decision_log": [
+    {
+      "step": 0,
+      "decisions": [
+        {
+          "agent_type": "predator",
+          "agent_id": 0,
+          "position": [
+            2,
+            2
+          ],
+          "energy": 120,
+          "action": "move",
+          "target_position": [
+            3,
+            2
+          ],
+          "context": {
+            "threat_level": "low",
+            "target_availability": "medium",
+            "food_availability": "medium",
+            "energy_status": "high",
+            "movement_distance": 1.0,
+            "is_moving": 

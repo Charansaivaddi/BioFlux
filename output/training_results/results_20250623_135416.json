@@ -1,0 +1,80 @@
+{
+  "summary": {
+    "lotka_volterra": {
+      "avg_reward": 0.0,
+      "std_reward": 0.0,
+      "avg_episode_length": 1.0,
+      "avg_survival_rate": 0.0
+    },
+    "epsilon_greedy": {
+      "avg_reward": 0.0,
+      "std_reward": 0.0,
+      "avg_episode_length": 1.0,
+      "avg_survival_rate": 0.0
+    },
+    "ppo": {
+      "avg_reward": 0.0,
+      "std_reward": 0.0,
+      "avg_episode_length": 1.0,
+      "avg_survival_rate": 0.0
+    },
+    "maddpg": {
+      "avg_reward": 0.0,
+      "std_reward": 0.0,
+      "avg_episode_length": 1.0,
+      "avg_survival_rate": 0.0
+    }
+  },
+  "detailed_results": {
+    "lotka_volterra": {
+      "rewards": [
+        0.0
+      ],
+      "episode_lengths": [
+        1
+      ],
+      "survival_rates": [
+        0.0
+      ]
+    },
+    "epsilon_greedy": {
+      "rewards": [
+        0.0
+      ],
+      "episode_lengths": [
+        1
+      ],
+      "survival_rates": [
+        0.0
+      ]
+    },
+    "ppo": {
+      "rewards": [
+        0.0
+      ],
+      "episode_lengths": [
+        1
+      ],
+      "survival_rates": [
+        0.0
+      ]
+    },
+    "maddpg": {
+      "rewards": [
+        0.0
+      ],
+      "episode_lengths": [
+        1
+      ],
+      "survival_rates": [
+        0.0
+      ]
+    }
+  },
+  "recommendations": [
+    "Best performing algorithm by reward: LOTKA_VOLTERRA",
+    "Best performing algorithm by survival: LOTKA_VOLTERRA",
+    "Consider ensemble methods combining multiple algorithms",
+    "Fine-tune hyperparameters for the best performing algorithms"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "algorithm": "lotka_volterra",
+  "scenario": "balanced",
+  "decision_log": [
+    {
+      "step": 0,
+      "decisions": [
+        {
+          "agent_type": "predator",
+          "agent_id": 0,
+          "position": [
+            5,
+            5
+          ],
+          "energy": 100,
+          "action": "hunt",
+          "target_position": [
+            10,
+            5
+          ],
+          "context": {
+            "threat_level": "low",
+            "target_availability": "high",
+            "food_availability": "high",
+            "energy_status": "high",
+            "movement_distance": 5.0,
+            "is_moving": 
